@@ -1,0 +1,7 @@
+.vscode/
+node_modules/
+babylon/
+design/
+note.txt
+# .env
+# credentials.json

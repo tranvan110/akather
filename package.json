@@ -1,0 +1,27 @@
+{
+  "name": "chatbox-pi",
+  "version": "1.0.0",
+  "description": "A barebones Node.js app.",
+  "main": "server.js",
+  "engines": {
+    "node": "12.17.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "VS",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^3.3.0",
+    "@google-cloud/speech": "^4.10.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.0",
+    "uuid": "^8.3.1",
+    "ws": "^7.3.1"
+  }
+}

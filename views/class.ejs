@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script>
+        src = "https://cdn.babylonjs.com/gui/babylon.gui.min.js"
+    </script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://cdn.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/class.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="user">
+        <h3 class="talk-info" id="talking-with-info">
+            Select active user
+        </h3>
+        <div class="active-users-panel" id="active-user-container">
+            <h3 class="panel-title">Active Users:</h3>
+        </div>
+    </div>
+    <div class="video-container">
+        <video autoplay class="remote-video" id="remote-video"></video>
+        <video autoplay muted class="local-video" id="local-video"></video>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.0/socket.io.min.js"></script>
+    <script src="/assets/js/class.js"></script>
+</body>
+
+</html>
